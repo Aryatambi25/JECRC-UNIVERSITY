@@ -1,0 +1,158 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif !important;
+}
+.body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+}
+.request-form {
+  background-color: #fff;
+  padding: 30px 40px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 600px;
+}
+
+h2 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 25px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 8px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="number"],
+select {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-sizing: border-box;
+  font-size: 16px;
+  color: #333;
+}
+
+input:focus,
+select:focus {
+  border-color: #007bff;
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.25);
+}
+
+.phone-input {
+  display: flex;
+}
+
+.country-code {
+  background-color: #eee;
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-right: none;
+  border-radius: 5px 0 0 5px;
+  font-size: 16px;
+  color: #555;
+  display: flex;
+  align-items: center;
+}
+
+.phone-input input {
+  border-left: none;
+  border-radius: 0 5px 5px 0;
+}
+
+.dual-select-group {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.dual-select-group .select-wrapper {
+  flex: 1;
+}
+
+.captcha-group {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.captcha-display {
+  display: flex;
+  align-items: center;
+  background-color: #f0f0f0;
+  border-radius: 5px;
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+}
+
+.captcha-display span {
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  color: #333;
+}
+
+.refresh-captcha {
+  background: none;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+  color: #666;
+  margin-left: 10px;
+}
+
+.consent-group {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 25px;
+}
+
+.consent-group input[type="checkbox"] {
+  margin-top: 5px;
+  margin-right: 10px;
+}
+
+.consent-group label {
+  font-size: 13px;
+  color: #666;
+  display: inline;
+}
+
+.submit-btn {
+  background-color: #dc3545; /* JECRC's red-like color */
+  color: white;
+  padding: 15px 25px;
+  border: none;
+  border-radius: 5px;
+  width: 100%;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.submit-btn:hover {
+  background-color: #c82333;
+}

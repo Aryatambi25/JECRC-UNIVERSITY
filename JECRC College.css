@@ -1,0 +1,426 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+.Header
+{
+ display: flex;
+ align-items: center;
+ padding: 20px;
+ justify-content: space-between;
+ background-color: white;
+
+}
+.menus ul
+{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: center
+}
+.logo
+{
+    width: 140px;
+}
+.logo img
+{
+    width: 100%;
+    height: 100%;
+}
+.menus a
+{
+ text-decoration: none;
+ font-size: 18px;
+ color: #de1819;
+ padding: 0 20px;
+}
+.menus ul li
+{
+    padding: 0 10px;
+}
+.menus a:hover{
+    color: #003a69;
+}
+
+.login a
+{
+    background-color: red;
+    color: white;
+    padding: 10px 40px;
+    border-radius: 50px;
+    font-size: 18px;
+    text-decoration: none;
+}
+.login a:hover{
+   background-color: white;
+   color: #003a69;
+   border: 2px solid red;
+}
+.background
+{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.664), rgba(0, 0, 0, 0.664)), url("https://jecrcuniversity.edu.in/wp-content/uploads/2023/02/building-1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.title h1
+{
+    color: white;
+    font-size: 60px;
+    align-items: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+.title h3
+{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 8px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.title p{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 8px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.About{
+    text-align: center;
+    margin-top: 72px;
+}
+.About p span{
+    font-weight: bold;
+}
+.Admission h1{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 100px;
+}
+.Admission p{
+    text-align: center;
+    font-weight: 200%;
+}
+.Admission h3{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 32px;
+    margin-top: 40px;
+    padding-left: 17px;
+}
+.Admission table{
+    padding-left: 13px;
+    table {
+      width: 400%;
+      border-collapse: collapse;
+      margin: 20px 0;
+    }
+    th, td {
+      border: 1px solid #d6e300; /* light yellow-green border */
+      padding: 12px;
+      text-align: left;
+      background-color: #f9f9f9; /* light gray background */
+    }
+    th {
+      font-weight: bold;
+      background-color: #ffffff;
+    }
+    a {
+      text-decoration: none;
+      color: #000;
+      font-weight: 500;
+    }
+    a:hover {
+      color: #0073e6; /* blue hover effect */
+    }
+}
+.academic{ max-width: 1100px;
+      margin: auto;
+      background: #fff;
+      padding: 30px;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+
+    h2 {
+      text-align: center;
+      margin-bottom: 20px;
+      color: #333;
+    }
+
+    form {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 20px;
+    }
+
+    label {
+      font-size: 14px;
+      font-weight: bold;
+      margin-bottom: 6px;
+      display: block;
+      color: #333;
+    }
+
+    input, select {
+      width: 100%;
+      padding: 12px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      font-size: 14px;
+      background: #eee;
+    }
+
+    .full-width {
+      grid-column: span 2;
+    }
+
+    button {
+      background: #d00000;
+      color: white;
+      padding: 12px 25px;
+      border: none;
+      border-radius: 4px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background: #a80000;
+    }
+
+    /* Responsive */
+    @media (max-width: 768px) {
+      form {
+        grid-template-columns: 1fr;
+      }
+      .full-width {
+        grid-column: span 1;
+      }
+    }
+    .heating{
+        text-align: center;
+        font-family: 'Times New Roman', Times, serif;
+        padding: 100px;
+    }
+    .heating h1{
+        font-family: fangsong;
+    }
+     .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 20px;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    .card {
+      background: #fff;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      overflow: hidden;
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+    }
+
+    .card img {
+      width: 100%;
+      height: 220px;
+      object-fit: cover;
+    }
+
+    .card-content {
+      padding: 20px;
+    }
+
+    .card h3 {
+      margin: 0 0 12px;
+      font-size: 20px;
+      font-weight: bold;
+      color: #111;
+      text-align: center;
+    }
+
+    .card p {
+      font-size: 14px;
+      color: #444;
+      line-height: 1.6;
+      text-align: justify;
+    }
+
+    .read-more {
+      display: block;
+      margin-top: 15px;
+      font-weight: bold;
+      color: #111;
+      text-align: center;
+      text-decoration: none;
+    }
+
+    .read-more:hover {
+      color: #fcb900;
+    }
+     .contact-section {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 30px;
+      max-width: 1200px;
+      margin: auto;
+      align-items: center;
+      margin-top: 100px;
+    }
+
+    .contact-info h2 {
+      font-size: 28px;
+      margin-bottom: 15px;
+      text-align: left;
+      font-family: 'Times New Roman', Times, serif;
+    }
+
+    .contact-info p {
+      margin: 8px 0;
+      line-height: 1.6;
+      color: #333;
+      font-size: 15px;
+    }
+
+    .contact-info strong {
+      display: inline-block;
+      width: 120px;
+    }
+
+    iframe {
+      width: 100%;
+      height: 400px;
+      border: 0;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+
+    @media(max-width: 768px) {
+      .contact-section {
+        grid-template-columns: 1fr;
+      }
+    }
+    /* --- General Footer Styling --- */
+footer {
+    background-color: #2c2c2c;
+    color: #e0e0e0;
+    font-family: Arial, sans-serif;
+    padding: 50px 0;
+}
+
+/* --- Top Section Layout (Logo & Links) --- */
+.footer-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    border-bottom: 1px solid #444; /* Separator line */
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+}
+
+.footer-logo-section {
+    flex: 1.5; /* Takes up more space */
+    max-width: 400px;
+}
+
+.footer-logo-section .logo {
+    max-width: 150px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.footer-logo-section p {
+    font-size: 14px;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+.disclaimer {
+    font-size: 12px;
+    color: #aaa;
+    margin-top: 15px;
+}
+
+.footer-links-section {
+    display: flex;
+    flex: 2; /* Takes up more space than logo section */
+    justify-content: space-around;
+}
+
+.link-column {
+    margin: 0 20px;
+}
+
+.link-column h3 {
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.link-column ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.link-column li {
+    margin-bottom: 10px;
+}
+
+.link-column a {
+    color: #e0e0e0;
+    text-decoration: none;
+    font-size: 14px;
+    transition: color 0.3s;
+}
+
+.link-column a:hover {
+    color: #fff;
+}
+
+/* --- Bottom Section (Text & Social Icons) --- */
+.footer-bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer-bottom p {
+    font-size: 12px;
+    line-height: 1.5;
+    color: #aaa;
+    margin-bottom: 20px;
+}
+
+.social-icons {
+    display: flex;
+    gap: 20px;
+}
+
+.social-icons img {
+    width: 40px; /* Adjust size as needed */
+    height: 40px;
+    filter: invert(100%); /* Turns icons white */
+}
